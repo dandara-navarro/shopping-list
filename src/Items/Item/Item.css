@@ -1,0 +1,26 @@
+.Item div{
+    display: flex;
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 3px 10px #5f5959;
+    padding: 16px;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.Item button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 4px 9px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.Item button:hover {
+    background-color: #d68383;
+}
